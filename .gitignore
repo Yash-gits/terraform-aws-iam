@@ -1,0 +1,23 @@
+# Terraform files
+.terraform/              # Ignore Terraform working directory
+*.tfstate                # Ignore Terraform state files
+*.tfstate.*              # Ignore backup Terraform state files
+*.tfvars                 # Ignore Terraform variable files
+crash.log                # Ignore Terraform crash logs
+
+# AWS Credentials file (for security reasons)
+.aws/credentials         # Ignore AWS credentials file
+
+# IDE specific files
+.vscode/                 # Ignore VSCode settings folder
+.idea/                   # Ignore IntelliJ IDEA settings folder
+
+# OS-specific files
+.DS_Store                # macOS-specific file
+Thumbs.db                # Windows-specific file
+
+# Terraform plan files
+*.tfplan                 # Ignore Terraform plan files
+
+# Local history (can be created by editors)
+.localhistory/           # Ignore local history folders from editors like JetBrains

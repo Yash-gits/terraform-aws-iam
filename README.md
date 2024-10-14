@@ -8,8 +8,11 @@ An AWS account and an IAM profile (e.g., pro-yash) for access
 
 # terraform-aws-iam-singer-management/
 ├── main.tf                # Main Terraform configuration file for resources
+
 ├── provider.tf            # AWS provider configuration
+
 ├── .gitignore             # Excludes sensitive files and Terraform state files
+
 └── README.md              # Project documentation
 
 # 1. Clone the Repository

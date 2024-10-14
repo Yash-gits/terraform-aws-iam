@@ -2,7 +2,7 @@
 A Terraform project for managing AWS IAM users, groups, and group memberships for singers. Automates the creation of IAM users and their assignment to the "Indian Idol" singer group in AWS.
 
 # Prerequisites
-Terraform v1.0+ installed on your machine
+**Terraform v1.0+ installed on your machine**
 AWS CLI configured with your credentials
 An AWS account and an IAM profile (e.g., pro-yash) for access
 
@@ -15,9 +15,15 @@ An AWS account and an IAM profile (e.g., pro-yash) for access
 
 └── README.md              # Project documentation
 
+---
+
 # 1. Clone the Repository
 Clone this repository to your local machine:
+
+```bash
 git clone https://github.com/your_username/terraform-aws-iam-singer-management.git
+
+Navigate to the project directory:
 cd terraform-aws-iam-singer-management
 
 # 2. Configure AWS CLI

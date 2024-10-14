@@ -1,16 +1,16 @@
 terraform {
   required_providers {
     aws = {
-      source = "hashicorp/aws"
+      source = "hashicorp/aws" # [for default]
       version = "5.70.0"
     }
   }
 }
 
-provider "aws" {
+provider "aws" {           # [for new profile ]
   region  = "ap-south-1"
   profile = "pro-yash"
   
-  access_key = "AKIA47CR3WP3SJG5GA5H"
-  secret_key = "rKkzw0C0ZMyGWL3AUIjPIkCsy+GuCqPCS67WTyEv"
+  access_key = "Your_AWS_Access_ID"
+  secret_key = "Your_AWS_Secret_Access_Key"
 }

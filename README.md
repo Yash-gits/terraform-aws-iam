@@ -21,7 +21,7 @@ An AWS account and an IAM profile (e.g., pro-yash) for access
 Clone this repository to your local machine:
 
 ```bash
-git clone https://github.com/your_username/terraform-aws-iam-singer-management.git
+git clone https://github.com/Yash-gits/terraform-aws-iam.git
 
 Navigate to the project directory:
 cd terraform-aws-iam-singer-management
@@ -58,6 +58,10 @@ terraform destroy
 Confirm the action by typing yes.
 
 
+Snapshots for references:
+#main.tf : ![image](https://github.com/user-attachments/assets/16106bc6-5f7f-4067-a053-fc0e82f065d8)
+#provider.tf : ![image](https://github.com/user-attachments/assets/e3a1f6cf-d3da-4940-8a8f-8089af46606f)
+ 
 
 
 
